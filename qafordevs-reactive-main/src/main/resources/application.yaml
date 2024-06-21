@@ -1,0 +1,14 @@
+server:
+  port: 8787
+spring:
+  application:
+    name: qafordevs-reactive
+
+  r2dbc:
+    url:  r2dbc:postgresql://localhost:5432/db_first?currentSchema=netology
+    username: postgres
+    password: 123
+  flyway:
+    url: jdbc:postgresql://localhost:5432/db_first?currentSchema=netology
+    user: postgres
+    password: 123
